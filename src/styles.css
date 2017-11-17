@@ -1,0 +1,69 @@
+/**
+ * Reset
+ */
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+body {
+	margin: 0;
+
+	padding-left: 80px;
+	padding-top: 80px;
+	padding-right: 80px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+@media (max-width: 600px) {
+	body {
+		padding-left: 40px;
+		padding-top: 40px;
+		padding-right: 40px;
+	}
+}
+
+ul#metaesquemas {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+ul#metaesquemas li {
+	padding: 0;
+	margin: 0;
+
+	width: 48.5%;
+
+	margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+	ul#metaesquemas li {
+		width: 100%;
+	}
+}
+
+ul#metaesquemas li > a {
+	width: 100%;
+
+	color: black;
+	text-decoration: none;
+}
+
+ul#metaesquemas li > a:hover {
+	text-decoration: underline;
+}
+
+ul#metaesquemas li > a > img {
+	width: 100%;
+}
+
+ul#metaesquemas li > a > h3 {
+	font-size: 16px;
+}
